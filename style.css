@@ -1,0 +1,132 @@
+h1 {
+    color:rgba(255, 136, 0, 0.747);
+    font-family:monotype cursiva ;
+    text-align: center;
+}
+
+body{
+    background-color: lightyellow;
+   /* background-color: #eeff0193;*/
+}
+a{
+    font-family:cursive;
+    font-size:large;
+    color: magenta;
+    text-decoration: none;
+}
+.Header{
+    background-color: rgb(236, 190, 149);
+    border: medium outset rgb(195, 245, 59);;
+}
+
+.Parent{
+    padding: 20px;
+    background-color: springgreen;
+    border: thin dashed rgb(255, 143, 143);
+   display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+   
+}
+
+.child p{
+transform: translate(0%,-990%);
+opacity: 0;
+font-family: cursive;
+}
+.child img{
+    border:thick outset rgba(11, 4, 119, 0.829);
+}
+.child:hover img{
+    opacity: 0.4;
+    transform:scale( 1.2);
+    
+}
+
+
+.child:hover p{
+    opacity: 1;
+    
+}
+.child{
+   padding: 20px;
+    display: flex;
+   /* order: 6;*/
+position: relative;
+justify-content: space-evenly;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.temp a:hover {
+    color: red;
+  }
+.temp a:visited{
+    color: rgb(252, 186, 5);
+}
+.footermenu a:link{
+    color:rgba(255, 136, 0, 0.747);
+}
+.footermenu a:visited{
+    color:white;
+}
+.footermenu a:hover {
+    color: red;
+  }
+a:link{
+    color:rgba(255, 136, 0, 0.747);
+}
+a:visited{
+    color:white;
+}
+a:hover {
+    color: red;
+  }
+.footer{
+    
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+}
+.Name{
+    background-color:rgba(128, 236, 255, 0.747) ;
+     border: medium outset rgb(0, 247, 255);
+ }
+ .Name2{
+    background-color:rgba(0, 33, 39, 0.747) ;
+     border: medium outset rgb(255, 255, 255);
+ }
+ .footermenu{
+ 
+  
+     background-color: #4D7496;
+  opacity: 0.9;
+ }
+
+ .f1{
+    margin-top: 40px;
+    
+    display:flex;
+    justify-content:space-evenly;
+    padding-right: 180px;
+ }
+ .f2{
+   
+    display:flex;
+    justify-content:space-evenly;
+    padding-right: 80px;
+ }
+ .f2 a {
+    padding-bottom: 100px;
+    font-family:cursive;
+    font-size:large;
+    color: white;
+    text-decoration: none;
+}.f1 a {
+    
+    font-family:cursive;
+    font-size:large;
+    color: white;
+    text-decoration: none;
+}
+
+ 
